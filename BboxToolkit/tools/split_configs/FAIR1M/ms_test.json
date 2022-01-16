@@ -1,0 +1,33 @@
+{
+    "nproc": 10,
+    "load_type": "dota",
+    "img_dirs": [
+        "/home/hnu1/OBBDetection/data/Final_test_data/images-1",
+        "/home/hnu1/OBBDetection/data/Final_test_data/images-2",
+        "/home/hnu1/OBBDetection/data/Final_test_data/images-3",
+        "/home/hnu1/OBBDetection/data/Final_test_data/images-4",
+        "/home/hnu1/OBBDetection/data/Final_test_data/images-5",
+        "/home/hnu1/OBBDetection/data/Final_test_data/images-6"
+    ],
+    "ann_dirs": null,
+    "classes": null,
+    "prior_annfile": null,
+    "merge_type": "addition",
+    "sizes": [
+        1024
+    ],
+    "gaps": [
+        200
+    ],
+    "rates": [
+        1.0,1.5
+    ],
+    "img_rate_thr": 0.6,
+    "iof_thr": 0.7,
+    "no_padding": false,
+    "padding_value": [
+        104, 116, 124
+    ],
+    "save_dir": "/home/hnu1/OBBDetection/data/FAIR1M_ms_final_test",
+    "save_ext": ".tif"
+}

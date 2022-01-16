@@ -1,0 +1,32 @@
+{
+    "nproc": 10,
+    "load_type": "dota",
+    "img_dirs": [
+        "/home/hnu/ZDS/DATA/FAIR1M_FUll/train/images/",
+        "/home/hnu/ZDS/DATA/FAIR1M_FUll/val/images/"
+    ],
+    "ann_dirs": [
+        "/home/hnu/ZDS/DATA/FAIR1M_FUll/train/labelTxt/",
+        "/home/hnu/ZDS/DATA/FAIR1M_FUll/val/labelTxt/"
+    ],
+    "classes": null,
+    "prior_annfile": null,
+    "merge_type": "addition",
+    "sizes": [
+        1024
+    ],
+    "gaps": [
+        200
+    ],
+    "rates": [
+        1.0,1.5
+    ],
+    "img_rate_thr": 0.6,
+    "iof_thr": 0.7,
+    "no_padding": false,
+    "padding_value": [
+        104, 116, 124
+    ],
+    "save_dir": "../../data/FaIR1M/trainval/",
+    "save_ext": ".tif"
+}
