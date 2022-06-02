@@ -24,3 +24,4 @@ The third place winning solution (3/220) in the track of Fine-grained Object Rec
  install: readme_install.md   
  Dataset format：only support DOTA (Changed the label format of the FAIR1M dataset to DOTA format during the competition)
  ## Detections   
+![demo image](demo/det_result.png)
